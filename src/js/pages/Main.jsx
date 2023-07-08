@@ -15,7 +15,7 @@ const Main = () => {
                                     <p>+996 (553) 509-307</p>
                                 </a>
                                 <a href="#" className='nav__contacts__phone'>
-                                    <p>+996 (553) 509-307</p>
+                                    <p>+996 (777) 666-775</p>
                                 </a>
                             </div>
                         </div>
