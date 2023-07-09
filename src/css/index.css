@@ -54,6 +54,10 @@ img {
   z-index: 999;
 }
 
+.hide-header__nav__contacts {
+  display: none;
+}
+
 .header__nav__contacts{
   padding: 10px 0;
   background-color: #3c3b5c;
@@ -68,13 +72,24 @@ img {
   gap: 10px;
 }
 
-.nav__contacts__phone{
+.nav__contacts__item{
   display: inline-block;
   font-size: 14px;
   color: #fff;
   position: relative;
   margin-right: 8px;
+  align-items: center;
 }
+.nav__contacts__item i{
+  font-size: 15px;
+  margin-right: 8px;
+  color: #fff;
+}
+.fa-phone:before {
+  content: "\f095";
+}
+
+
 
 
 
@@ -91,6 +106,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  overflow: hidden;
 }
 
 .nav__menu__logo{
