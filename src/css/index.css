@@ -122,15 +122,25 @@ img {
 
 .nav__menu__logo__container{
   display: flex;
+  min-width: 24%;
   max-width: 25%;
 }
 
 
+.nav__menu__links {
+  /* width: 100%;   */
+
+}
+
+
+
+
 .nav__menu__links ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 40px;
     list-style: none;
+    
 }
 .nav__menu__links>ul>li{
   text-transform: uppercase;
@@ -170,7 +180,8 @@ img {
 }
 /***********************************ABOUT US**********************/
 .about{
-  width: 75%;
+  min-width: 74%;
+  max-width: 75%;
   height: auto;
   margin: 0 auto;
   padding: 100px 0;
@@ -248,3 +259,14 @@ img {
   width: 60px;
   border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+

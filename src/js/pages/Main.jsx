@@ -68,8 +68,8 @@ const Main = () => {
                                 <div className='nav__menu__logo__container'>
                                     <img src={dzh} alt="Dzh logo" className='nav__menu__logo'/>
                                 </div>
-                                <div className='nav__menu__links'>
-                                    <ul>
+                                <nav className='nav__menu__links'>
+                                    <ul className='menu'>
                                         <li>
                                             <a href="#">
                                                 <span>
@@ -106,7 +106,7 @@ const Main = () => {
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
+                                </nav>
                             </div>
                         </div>
                     </div>
