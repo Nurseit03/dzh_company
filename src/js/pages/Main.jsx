@@ -62,12 +62,8 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='header__nav__menu'>
-                        <div className='container'>
                             <div className='nav__menu'>
-                                <div className='nav__menu__logo__container'>
                                     <img src={dzh} alt="Dzh logo" className='nav__menu__logo'/>
-                                </div>
                                 <nav className='nav__menu__links'>
                                     <ul className='menu'>
                                         <li>
@@ -108,8 +104,6 @@ const Main = () => {
                                     </ul>
                                 </nav>
                             </div>
-                        </div>
-                    </div>
                 </nav>
             </header>
             <main className='main'>
@@ -120,17 +114,39 @@ const Main = () => {
                     <img src={about_us_illustration} alt="#" className='about__img'/>
                     <div className='about__text'>
                         <h3 className='about__text__title'>О нас</h3>
-                        <p>
-                        Lorem Ipsum is simply dummy text of the                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
+                            <p>
+                            ТОО «Кемет» - компания с многолетним опытом. Мы реализуем качественную химическую продукцию на территории Казахстана, Кыргызстана, России.
+                            Наша компания – связующее звено между крупными мировыми производителями химической продукции и предприятиями, занятыми в горнодобывающей, строительной, нефтегазовой, сельскохозяйственной отрасли. Работаем напрямую с поставщиками, поэтому рады предложить вам самые выгодные условия сотрудничества.
+                            Наша миссия – быть добросовестным поставщиком продукции, которая является эталоном в соотношении цены и качества. 
+                            </p>
+                            <div>
+                            <span class="mobile-hide">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.6 16.6L17.65 9.55L16.25 8.15L10.6 13.8L7.75 10.95L6.35 12.35L10.6 16.6ZM12 22C10.6167 22 9.31667 21.7373 8.1 21.212C6.88333 20.6867 5.825 19.9743 4.925 19.075C4.025 18.175 3.31267 17.1167 2.788 15.9C2.26333 14.6833 2.00067 13.3833 2 12C2 10.6167 2.26267 9.31667 2.788 8.1C3.31333 6.88333 4.02567 5.825 4.925 4.925C5.825 4.025 6.88333 3.31267 8.1 2.788C9.31667 2.26333 10.6167 2.00067 12 2C13.3833 2 14.6833 2.26267 15.9 2.788C17.1167 3.31333 18.175 4.02567 19.075 4.925C19.975 5.825 20.6877 6.88333 21.213 8.1C21.7383 9.31667 22.0007 10.6167 22 12C22 13.3833 21.7373 14.6833 21.212 15.9C20.6867 17.1167 19.9743 18.175 19.075 19.075C18.175 19.975 17.1167 20.6877 15.9 21.213C14.6833 21.7383 13.3833 22.0007 12 22Z" fill="#F04C36"></path>
+                                </svg>
+                                Соответствие стандартам качества и ГОСТам
+                            </span>
+                            <span class="mobile-hide">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 18.5C17.6022 18.5 17.2206 18.342 16.9393 18.0607C16.658 17.7794 16.5 17.3978 16.5 17C16.5 16.6022 16.658 16.2206 16.9393 15.9393C17.2206 15.658 17.6022 15.5 18 15.5C18.3978 15.5 18.7794 15.658 19.0607 15.9393C19.342 16.2206 19.5 16.6022 19.5 17C19.5 17.3978 19.342 17.7794 19.0607 18.0607C18.7794 18.342 18.3978 18.5 18 18.5ZM19.5 9.5L21.46 12H17V9.5M6 18.5C5.60218 18.5 5.22064 18.342 4.93934 18.0607C4.65804 17.7794 4.5 17.3978 4.5 17C4.5 16.6022 4.65804 16.2206 4.93934 15.9393C5.22064 15.658 5.60218 15.5 6 15.5C6.39782 15.5 6.77936 15.658 7.06066 15.9393C7.34196 16.2206 7.5 16.6022 7.5 17C7.5 17.3978 7.34196 17.7794 7.06066 18.0607C6.77936 18.342 6.39782 18.5 6 18.5ZM20 8H17V4H3C1.89 4 1 4.89 1 6V17H3C3 17.7956 3.31607 18.5587 3.87868 19.1213C4.44129 19.6839 5.20435 20 6 20C6.79565 20 7.55871 19.6839 8.12132 19.1213C8.68393 18.5587 9 17.7956 9 17H15C15 17.7956 15.3161 18.5587 15.8787 19.1213C16.4413 19.6839 17.2044 20 18 20C18.7956 20 19.5587 19.6839 20.1213 19.1213C20.6839 18.5587 21 17.7956 21 17H23V12L20 8Z" fill="#F04C36"></path>
+                                </svg>
+                                Организуем логистику
+                            </span>
+                            <span class="mobile-hide">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25 4C9.25 3.27065 9.53973 2.57118 10.0555 2.05546C10.5712 1.53973 11.2707 1.25 12 1.25C12.7293 1.25 13.4288 1.53973 13.9445 2.05546C14.4603 2.57118 14.75 3.27065 14.75 4C14.75 4.72935 14.4603 5.42882 13.9445 5.94454C13.4288 6.46027 12.7293 6.75 12 6.75C11.2707 6.75 10.5712 6.46027 10.0555 5.94454C9.53973 5.42882 9.25 4.72935 9.25 4Z" fill="#F04C36"></path>
+                                <path d="M8.22304 11.574L6.04804 10.849C5.67538 10.7261 5.36409 10.4648 5.17839 10.1191C4.99268 9.77343 4.9467 9.36966 5.04994 8.99106C5.15319 8.61247 5.39777 8.28793 5.73326 8.08437C6.06875 7.8808 6.46956 7.81374 6.85304 7.897L8.75104 8.304L8.96104 8.348C11.0366 8.77777 13.1797 8.76277 15.249 8.304L17.146 7.897C17.5298 7.81288 17.9312 7.8794 18.2673 8.08281C18.6034 8.28621 18.8485 8.61096 18.952 8.98995C19.0555 9.36894 19.0094 9.77319 18.8233 10.1192C18.6372 10.4652 18.3253 10.7264 17.952 10.849L15.777 11.574C15.514 11.662 15.383 11.706 15.284 11.767C15.1193 11.8686 14.9875 12.0159 14.9048 12.1909C14.8221 12.3659 14.7919 12.5612 14.818 12.753C14.834 12.868 14.884 12.997 14.983 13.256L16.23 16.498C16.3642 16.8447 16.3622 17.2294 16.2246 17.5747C16.087 17.9201 15.8238 18.2007 15.488 18.3601C15.1521 18.5196 14.7684 18.5461 14.4138 18.4344C14.0592 18.3228 13.7599 18.0811 13.576 17.758L12 15L10.424 17.757C10.2402 18.0801 9.94089 18.3218 9.58628 18.4334C9.23167 18.5451 8.84794 18.5186 8.51209 18.3591C8.17624 18.1997 7.9131 17.9191 7.77547 17.5737C7.63784 17.2284 7.6359 16.8437 7.77004 16.497L9.01704 13.256C9.11704 12.997 9.16604 12.868 9.18204 12.753C9.20814 12.5612 9.178 12.3659 9.09528 12.1909C9.01256 12.0159 8.88082 11.8686 8.71604 11.767C8.61704 11.706 8.48604 11.662 8.22304 11.574Z" fill="#F04C36"></path>
+                                <path d="M12 22C17.523 22 22 19.985 22 17.5C22 15.778 19.85 14.282 16.694 13.525L17.63 15.959C18.379 17.907 16.942 19.999 14.855 19.999C14.3309 19.9992 13.816 19.8609 13.3625 19.598C12.9091 19.3351 12.5332 18.957 12.273 18.502L12 18.022L11.726 18.502C11.4661 18.9569 11.0906 19.335 10.6375 19.598C10.1844 19.8611 9.6699 19.9998 9.146 20C7.059 20 5.621 17.907 6.37 15.959L7.306 13.525C4.149 14.282 2 15.778 2 17.5C2 19.985 6.477 22 12 22Z" fill="#F04C36"></path>
+                                </svg>
+                                Гибкий подход к каждому клиенту
+                            </span>
+                            <span class="mobile-hide">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 21C9.45 21 8.979 20.804 8.587 20.412C8.195 20.02 7.99934 19.5493 8 19V8.825C8 8.55833 8.05434 8.30433 8.163 8.06299C8.27167 7.82166 8.41734 7.609 8.6 7.425L14.025 2.025C14.275 1.79166 14.571 1.65 14.913 1.6C15.255 1.55 15.584 1.60833 15.9 1.775C16.2167 1.94166 16.446 2.17499 16.588 2.47499C16.73 2.77499 16.759 3.08333 16.675 3.4L15.55 8H21C21.5333 8 22 8.2 22.4 8.6C22.8 9 23 9.46666 23 10V12C23 12.1167 22.9873 12.2417 22.962 12.375C22.9367 12.5083 22.8993 12.6333 22.85 12.75L19.85 19.8C19.7 20.1333 19.45 20.4167 19.1 20.65C18.75 20.8833 18.3833 21 18 21H10ZM4 21C3.45 21 2.979 20.804 2.587 20.412C2.195 20.02 1.99934 19.5493 2 19V10C2 9.45 2.196 8.979 2.588 8.587C2.98 8.19499 3.45067 7.99933 4 8C4.55 8 5.021 8.196 5.413 8.588C5.805 8.98 6.00067 9.45066 6 10V19C6 19.55 5.804 20.021 5.412 20.413C5.02 20.805 4.54934 21.0007 4 21Z" fill="#F04C36"></path>
+                                </svg>
+                                Большой опыт в сфере химической промышленности
+                            </span>
+                            </div>
                     </div>
                 </section>
             </main>
