@@ -132,6 +132,27 @@ img {
   margin-left: -100px;
 }
 
+@media only screen and (max-width: 767px) {
+  .nav__menu__links {
+      display: none;
+  }
+  .nav__menu{
+    justify-content: flex-start;
+  }
+  .nav__menu__icon{
+    display: unset;
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav__menu__links {
+      display: unset;
+  }
+  .nav__menu__icon{
+    display: none;
+  }
+}
 
 
 

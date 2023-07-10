@@ -27,11 +27,11 @@ const Main = () => {
                     <div className='header__nav__contacts'>
                         <div className='container'>
                             <div className='nav__contacts'>
-                                <a href="#" className='nav__contacts__item'>
+                                <a href="tel:+996553509307" className='nav__contacts__item'>
                                     <i className='fa fa-phone'></i>
                                     +996 (553) 509-307
                                 </a>
-                                <a href="#" className='nav__contacts__item'>
+                                <a href="tel:+996777666775" className='nav__contacts__item'>
                                     <i className='fa fa-phone'></i>
                                     +996 (777) 666-775
                                 </a>
@@ -63,7 +63,12 @@ const Main = () => {
                         </div>
                     </div>
                             <div className='nav__menu'>
+                                <a href="#" class="nav__menu__icon">
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                                <a href="/">
                                     <img src={dzh} alt="Dzh logo" className='nav__menu__logo'/>
+                                </a>
                                 <nav className='nav__menu__links'>
                                     <ul className='menu'>
                                         <li>
