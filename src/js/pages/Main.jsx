@@ -1,9 +1,13 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import dzh from '../../assets/dzh.jpg';
 import whatsapp from '../../assets/whatsapp_logo.png';
 import about_us_illustration from '../../assets/about_us_illustration.jpeg';
+import NavMenu from '../../components/NavMenu';
 
 const Main = () => {
+    const menuItems = ['Главная', 'О нас', 'Партнеры', 'Продукция', 'Свяжитесь с нами'];
+    const [activeLink, setActiveLink] = useState(null);
+
     useEffect(() => {
         const hideContactsOnMobile = () => {
           const headerNavContacts = document.querySelector('.header__nav__contacts');
@@ -19,6 +23,10 @@ const Main = () => {
           window.removeEventListener('resize', hideContactsOnMobile);
         };
       }, []);
+    
+    const handleClick = (index) => {
+        setActiveLink(index);
+    };
 
     return (
         <>
@@ -69,45 +77,7 @@ const Main = () => {
                                 <a href="/">
                                     <img src={dzh} alt="Dzh logo" className='nav__menu__logo'/>
                                 </a>
-                                <nav className='nav__menu__links'>
-                                    <ul className='menu'>
-                                        <li>
-                                            <a href="#">
-                                                <span>
-                                                Главная
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>
-                                                О нас
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>
-                                                Партнеры
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span className='active'>
-                                                Продукция
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span className='pulsate'>
-                                                Свяжитесь с нами
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                                <NavMenu items={menuItems} />
                             </div>
                 </nav>
             </header>
@@ -154,6 +124,7 @@ const Main = () => {
                             </div>
                     </div>
                 </section>
+                
             </main>
             <div className='fixed_button'>
                 <a href="https://wa.me/996553509307">

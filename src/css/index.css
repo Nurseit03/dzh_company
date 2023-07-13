@@ -143,6 +143,10 @@ img {
     display: unset;
     margin-left: 45px;
   }
+  .fixed_button img{
+    height: 30px;
+    width: 30px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -177,6 +181,10 @@ img {
   color: #f04C36;
 }
 
+.pulsate {
+  animation: pulse 1s ease-out infinite;
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -187,12 +195,6 @@ img {
   100% {
     transform: scale(1);
   }
-}
-
-.pulsate {
-  animation: pulse 1s ease-out infinite;
-  animation-play-state: running;
-  transform: scale(1.1);
 }
 
 
