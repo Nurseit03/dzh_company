@@ -15,7 +15,7 @@ function NavMenu({ items }) {
             <a
               href='#'
               onClick={() => handleClick(index)}
-              className={activeLink === index ? 'active' : ''}
+              className={`${activeLink === index ? 'active' : ''} ${item === 'СВЯЖИТЕСЬ С НАМИ' ? 'pulsate' : ''}`}
             >
               <span>{item}</span>
             </a>

@@ -6,13 +6,15 @@ import NavMenu from '../../components/NavMenu';
 
 const Main = () => {
     const menuItems = ['Главная', 'О нас', 'Партнеры', 'Продукция', 'Свяжитесь с нами'];
-    const [activeLink, setActiveLink] = useState(null);
 
     useEffect(() => {
         const hideContactsOnMobile = () => {
           const headerNavContacts = document.querySelector('.header__nav__contacts');
           if (headerNavContacts && window.innerWidth < 768) {
             headerNavContacts.classList.add('hide-header__nav__contacts');
+          }
+          else if (headerNavContacts && window.innerWidth > 768){
+            headerNavContacts.classList.remove('hide-header__nav__contacts');
           }
         };
     
@@ -23,10 +25,6 @@ const Main = () => {
           window.removeEventListener('resize', hideContactsOnMobile);
         };
       }, []);
-    
-    const handleClick = (index) => {
-        setActiveLink(index);
-    };
 
     return (
         <>
